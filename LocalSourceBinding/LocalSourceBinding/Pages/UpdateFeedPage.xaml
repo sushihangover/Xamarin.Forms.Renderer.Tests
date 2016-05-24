@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="LocalSourceBinding.UpdateFeedPage"
+		Title="New Update">
+	<ContentPage.Content>
+	  <StackLayout Orientation="Vertical" >
+	    <ListView x:Name="AttachedFilesListView" MinimumHeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+	      <ListView.ItemTemplate>
+	        <DataTemplate>
+	          <ViewCell>
+	            <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+	              <Button Text="[X]" />
+	              <StackLayout Padding="5,0,0,0" VerticalOptions="StartAndExpand" Orientation="Vertical">
+	                <Label Text="{Binding Name}" VerticalTextAlignment="Center" FontSize="Medium" />
+	              </StackLayout>
+	            </StackLayout>
+	          </ViewCell>
+	        </DataTemplate>
+	      </ListView.ItemTemplate>
+	    </ListView>
+	    <Editor x:Name="UpdateFeedEditor" FontSize="15" Text="{Binding PostText}"  VerticalOptions="FillAndExpand" />
+	    <Button Text="Attach file" TextColor="White" BackgroundColor="#77D065" Clicked="onAttachFileClicked"/>
+	    <Button Text="Post" TextColor="White" BackgroundColor="#77D065" Clicked="onPostClicked"/>
+	  </StackLayout>
+	</ContentPage.Content>
+</ContentPage>
