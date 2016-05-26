@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingAudio", "StreamingAudio\StreamingAudio.csproj", "{057F25FD-0BCC-4865-85D1-47DF6DE4546A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{057F25FD-0BCC-4865-85D1-47DF6DE4546A}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{057F25FD-0BCC-4865-85D1-47DF6DE4546A}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{057F25FD-0BCC-4865-85D1-47DF6DE4546A}.Release|iPhone.ActiveCfg = Release|iPhone
+		{057F25FD-0BCC-4865-85D1-47DF6DE4546A}.Release|iPhone.Build.0 = Release|iPhone
+		{057F25FD-0BCC-4865-85D1-47DF6DE4546A}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{057F25FD-0BCC-4865-85D1-47DF6DE4546A}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{057F25FD-0BCC-4865-85D1-47DF6DE4546A}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{057F25FD-0BCC-4865-85D1-47DF6DE4546A}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
