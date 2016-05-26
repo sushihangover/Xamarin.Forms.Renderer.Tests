@@ -1,0 +1,8 @@
+﻿<metadata>
+  <remove-node path="/api/package[@name='com.bluejamesbond.text']/class[@name='StringDocumentLayout']" />
+  <remove-node path="/api/package[@name='com.bluejamesbond.text']/class[@name='SpannableDocumentLayout']" />
+  <remove-node path="/api/package[@name='com.bluejamesbond.text']/class[@name='ConcurrentModifiableLinkedList']" />
+  <remove-node path="/api/package[@name='com.bluejamesbond.text']/class[@name='DocumentView.CacheBitmap']" />
+  <remove-node path="/api/package[@name='com.bluejamesbond.text']/class[@name='DocumentView.MeasureTask']" />
+  <remove-node path="/api/package[@name='com.bluejamesbond.text']/class[@name='DocumentView.CacheBitmap.CacheDrawTask']" />
+</metadata>

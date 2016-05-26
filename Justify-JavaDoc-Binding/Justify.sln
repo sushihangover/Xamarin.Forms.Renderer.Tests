@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Justify", "Justify\Justify.csproj", "{1880363A-0BBD-4765-956E-0E8EC37D5BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextJustifyAndroid", "TextJustifyAndroid\TextJustifyAndroid.csproj", "{7B355732-F6C8-43D9-8B20-2C432CFD05EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1880363A-0BBD-4765-956E-0E8EC37D5BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1880363A-0BBD-4765-956E-0E8EC37D5BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1880363A-0BBD-4765-956E-0E8EC37D5BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1880363A-0BBD-4765-956E-0E8EC37D5BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B355732-F6C8-43D9-8B20-2C432CFD05EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B355732-F6C8-43D9-8B20-2C432CFD05EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B355732-F6C8-43D9-8B20-2C432CFD05EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B355732-F6C8-43D9-8B20-2C432CFD05EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
