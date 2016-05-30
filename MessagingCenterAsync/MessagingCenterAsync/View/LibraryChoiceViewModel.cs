@@ -1,0 +1,6 @@
+﻿namespace MessagingCenterAsync
+{
+	class LibraryChoiceViewModel
+	{
+	}
+}

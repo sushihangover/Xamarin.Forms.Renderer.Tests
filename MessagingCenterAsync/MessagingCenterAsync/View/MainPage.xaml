@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="MessagingCenterAsync.LibraryChoicePage"
+		Title="MessageCenter Async">
+	<ContentPage.Content>
+		<StackLayout
+				HorizontalOptions="CenterAndExpand">		
+			<Button
+				x:Name="clearStackLayput"
+				Text="ClearStackLayout"/>
+			<Button
+				x:Name="addToStackLayout"
+				Text="AddToStackLayout"/>			
+			<ScrollView
+					VerticalOptions="CenterAndExpand">
+				<StackLayout
+						x:Name="_choices"
+						HorizontalOptions="CenterAndExpand">
+					<Label Text="Initial" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+				</StackLayout>
+			</ScrollView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
