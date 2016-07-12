@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="login">Login</string>
+	<string name="logout">Logout</string>
+	<string name="app_name">MyGPlus</string>
+</resources>
