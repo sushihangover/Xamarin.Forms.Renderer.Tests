@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ProgressBarTimer.Progress">
+	<ContentPage.Content>
+		<AbsoluteLayout>
+			<StackLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+				<Label FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="Center">This might be a page full of user-interface objects except that the only functional user-interface object on the page is a Button</Label>
+				<Button Text="Run 5-Sec job" FontSize="Large" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Clicked="OnButtonClicked">
+				</Button>
+				<Button Text="A DO-Nothing Btn" FontSize="Large" VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+				</Button>
+				<Label FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center">This continues the page full of user-interface objects except that the only functional user-interface object on the page is the Button.</Label>
+			</StackLayout>
+			<ContentView x:Name="overlay" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" IsVisible="False" BackgroundColor="#C0808010" Padding="10,0">
+				<ProgressBar x:Name="ProgressBar" VerticalOptions="Center">
+				</ProgressBar>
+			</ContentView>
+		</AbsoluteLayout>
+	</ContentPage.Content>
+</ContentPage>
