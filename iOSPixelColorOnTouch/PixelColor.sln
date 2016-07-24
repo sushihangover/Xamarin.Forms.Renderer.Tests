@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelColor", "PixelColor\PixelColor.csproj", "{A154B843-7A74-4832-8ADB-757126B0D23F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A154B843-7A74-4832-8ADB-757126B0D23F}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{A154B843-7A74-4832-8ADB-757126B0D23F}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{A154B843-7A74-4832-8ADB-757126B0D23F}.Release|iPhone.ActiveCfg = Release|iPhone
+		{A154B843-7A74-4832-8ADB-757126B0D23F}.Release|iPhone.Build.0 = Release|iPhone
+		{A154B843-7A74-4832-8ADB-757126B0D23F}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{A154B843-7A74-4832-8ADB-757126B0D23F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{A154B843-7A74-4832-8ADB-757126B0D23F}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{A154B843-7A74-4832-8ADB-757126B0D23F}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
