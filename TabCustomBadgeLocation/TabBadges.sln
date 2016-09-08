@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabBadges", "TabBadges\TabBadges.csproj", "{FA52962A-53FD-434E-A921-DF06C8512A8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA52962A-53FD-434E-A921-DF06C8512A8F}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{FA52962A-53FD-434E-A921-DF06C8512A8F}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{FA52962A-53FD-434E-A921-DF06C8512A8F}.Release|iPhone.ActiveCfg = Release|iPhone
+		{FA52962A-53FD-434E-A921-DF06C8512A8F}.Release|iPhone.Build.0 = Release|iPhone
+		{FA52962A-53FD-434E-A921-DF06C8512A8F}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{FA52962A-53FD-434E-A921-DF06C8512A8F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{FA52962A-53FD-434E-A921-DF06C8512A8F}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{FA52962A-53FD-434E-A921-DF06C8512A8F}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
